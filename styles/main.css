@@ -112,7 +112,7 @@ nav {
 
 .hero-text {
   color: var(--hero-text);
-  margin-bottom: var(--medium);
+  margin-bottom: var(--x-small);
 }
 
 /* Product section */
@@ -122,8 +122,8 @@ section {
   border-bottom: 1px solid var(--line-color);
 }
 
-section h2,
-section p {
+.dashboard-h2,
+.dashboard-p {
   margin: 0 auto;
   text-align: center;
 }
@@ -166,7 +166,6 @@ section p {
 }
 
 .story-container h2 {
-  text-align: left;
   margin-bottom: var(--small);
 }
 
@@ -179,7 +178,6 @@ section p {
 }
 
 .user-story p {
-  text-align: left;
   margin-bottom: var(--x-small);
 }
 
@@ -189,7 +187,6 @@ section p {
 
 .user-performance {
   color: var(--text);
-  text-align: left;
   font-weight: bold;
   padding-bottom: var(--x-small);
   border-bottom: 1px solid var(--line-color);
@@ -234,4 +231,126 @@ section p {
 /* Privacy section */
 .privacy {
   background-color: var(--key-section);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-image {
+  margin-bottom: var(--x-small);
+  width: 85%;
+}
+
+.privacy-content {
+  margin-bottom: var(--medium);
+  width: 85%;
+}
+
+.privacy-content h3 {
+  margin-bottom: var(--x-small);
+}
+
+.privacy-content p {
+  margin-bottom: var(--x-small);
+}
+
+.privacy-content p:last-child {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0;
+}
+
+/* Start section */
+
+.start {
+  padding-top: var(--small);
+  width: 85%;
+  margin: 0 auto;
+  border-bottom: none;
+}
+
+.start-image {
+  margin-bottom: var(--x-small);
+}
+
+.start-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--medium);
+}
+.start-content h2 {
+  width: 85%;
+  margin-bottom: var(--x-small);
+}
+
+.start-button {
+  background-color: var(--brand-blue);
+  color: var(--really-white);
+  font-size: 1.125rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+footer {
+  border-top: 1px solid var(--line-color);
+}
+
+.join {
+  width: 86%;
+  margin: var(--medium) auto 0 auto;
+}
+
+.join img {
+  width: 5rem;
+  margin-bottom: var(--x-small);
+}
+
+.join p {
+  margin-bottom: var(--x-small);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--text);
+  margin-bottom: var(--medium);
+}
+.form p {
+  margin-bottom: 0;
+  width: 80%;
+}
+
+.form-button {
+  background-color: var(--brand-blue);
+  color: var(--really-white);
+  border-radius: 10px;
+}
+
+.our-products {
+  width: 85%;
+  margin: 0 auto var(--small) auto;
+}
+.our-products span {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.our-products li {
+  margin-bottom: 0.7rem;
+}
+.our-products li a {
+  color: var(--paragraph);
+}
+
+.copyright {
+  width: 85%;
+  margin: 0 auto;
+  color: var(--text);
+  font-weight: 600;
+  padding-bottom: 1rem;
 }
