@@ -30,7 +30,6 @@
 }
 
 body {
-  background-color: var(--brand-blue);
   font-family: "Inter", sans-serif;
 }
 
@@ -64,11 +63,14 @@ img {
 nav {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: var(--small) auto 0 auto;
 }
 
 /* header section  mobile view*/
+
+.cover {
+  background-color: var(--brand-blue);
+  padding: var(--small) 1rem;
+}
 
 .logo,
 .advantages,
