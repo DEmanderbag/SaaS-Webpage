@@ -154,14 +154,17 @@ section {
 .dashboard-h2,
 .dashboard-p {
   text-align: center;
+  margin: 0 auto;
 }
 
 .dashboard-h2 {
   width: 80%;
+  margin-bottom: var(--x-small);
 }
 
 .dashboard-p {
   width: 85%;
+  margin-bottom: var(--small);
 }
 
 .dashboard {
