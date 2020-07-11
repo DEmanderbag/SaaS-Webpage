@@ -69,9 +69,9 @@ img {
 }
 
 /* Reusable classes */
-.width-center{
- width: 85%;
- margin: 0 auto;
+.width-center {
+  width: 85%;
+  margin: 0 auto;
 }
 
 .margin-center {
@@ -81,6 +81,15 @@ img {
 .mb-xsmall {
   margin-bottom: var(--x-small);
 }
+
+.mb-medium {
+  margin-bottom: var(--medium);
+}
+
+.line {
+  border-bottom: 1px solid var(--line-color);
+}
+
 /* header section  mobile view*/
 nav {
   display: flex;
@@ -137,7 +146,6 @@ nav {
 section {
   background-color: var(--really-white);
   padding-top: var(--medium);
-  border-bottom: 1px solid var(--line-color);
 }
 
 .dashboard-h2,
@@ -151,21 +159,13 @@ section {
 
 .dashboard-p {
   width: 85%;
-  margin-bottom: var(--medium);
 }
 
 .dashboard {
   overflow: hidden;
-  margin-bottom: var(--medium);
 }
 
 /* Story section */
-
-.story {
-  border-bottom: none;
-  margin-bottom: var(--medium);
-}
-
 .story-container img {
   width: 100%;
   border-radius: 10px;
@@ -174,10 +174,10 @@ section {
   color: var(--brand-blue);
 }
 
-.user-story {
-  margin-bottom: var(--medium);
+.user-story h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-
 .user-performance {
   color: var(--text);
   font-weight: bold;
@@ -186,7 +186,7 @@ section {
 }
 
 .currency {
-  margin-top: var(--medium);
+  margin: var(--large) 0;
 }
 
 .currency-box {
@@ -230,12 +230,8 @@ section {
   align-items: center;
 }
 
-.privacy-image {
-  width: 85%;
-}
-
+.privacy-image,
 .privacy-content {
-  margin-bottom: var(--medium);
   width: 85%;
 }
 
@@ -246,7 +242,6 @@ section {
 }
 
 /* Start section */
-
 .start {
   padding-top: var(--small);
   border-bottom: none;
@@ -291,14 +286,16 @@ footer {
   margin-bottom: var(--medium);
 }
 .form p {
-  margin-bottom: 0;
-  width: 80%;
+  width: 95%;
+  padding-left: 1rem;
+  color: var(--text);
 }
 
 .form-button {
   background-color: var(--brand-blue);
   color: var(--really-white);
   border-radius: 10px;
+  padding: 0.8rem 1rem;
 }
 
 .our-products {
@@ -319,6 +316,7 @@ footer {
 
 .copyright {
   color: var(--text);
-  font-weight: 600;
-  padding-bottom: 1rem;
+  font-weight: 400;
+  margin-top: var(--medium);
+  padding-bottom: 2rem;
 }
