@@ -293,6 +293,8 @@ footer {
   width: 100%;
   border: 1px solid var(--text);
   margin-bottom: var(--medium);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .form p {
   padding-left: 1rem;
